@@ -19,7 +19,7 @@
   "packages": [
     {
       "registry_type": "npm",
-      "identifier": "bmi-mcp-server",
+      "identifier": "@juejueeileen/bmi-mcp-server",
       "version": "1.0.0"
     }
   ]
