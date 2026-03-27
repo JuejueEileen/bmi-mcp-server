@@ -1,13 +1,13 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
-  "name": "io.github.eileen/bmi-mcp-server",
+  "name": "io.github.JuejueEileen/bmi-mcp-server",
   "description": "A custom MCP server for Body Mass Index calculation, weight conversion, and health recommendations. Built with TypeScript.",
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/eileen/bmi-mcp-server"
+    "url": "https://github.com/JuejueEileen/bmi-mcp-server"
   },
-  "homepage": "https://github.com/eileen/bmi-mcp-server",
+  "homepage": "https://github.com/JuejueEileen/bmi-mcp-server",
   "keywords": [
     "mcp",
     "mcp-server",
@@ -19,7 +19,7 @@
   "packages": [
     {
       "registry_type": "npm",
-      "identifier": "@eileen/bmi-mcp-server",
+      "identifier": "@JuejueEileen/bmi-mcp-server",
       "version": "1.0.0"
     }
   ]

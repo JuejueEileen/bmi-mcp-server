@@ -1,13 +1,13 @@
 {
-  "name": "@eileen/bmi-mcp-server",
+  "name": "@JuejueEileen/bmi-mcp-server",
   "version": "1.0.0",
   "description": "A custom MCP server for BMI calculation - built with TypeScript",
   "main": "dist/server.js",
   "types": "dist/server.d.ts",
-  "mcpName": "io.github.eileen/bmi-mcp-server",
+  "mcpName": "io.github.JuejueEileen/bmi-mcp-server",
   "repository": {
     "type": "git",
-    "url": "https://github.com/eileen/bmi-mcp-server"
+    "url": "https://github.com/JuejueEileen/bmi-mcp-server"
   },
   "scripts": {
     "build": "tsc",
