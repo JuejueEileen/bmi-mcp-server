@@ -1,5 +1,5 @@
 {
-  "name": "@JuejueEileen/bmi-mcp-server",
+  "name": "@juejueeileen/bmi-mcp-server",
   "version": "1.0.0",
   "description": "A custom MCP server for BMI calculation - built with TypeScript",
   "main": "dist/server.js",
