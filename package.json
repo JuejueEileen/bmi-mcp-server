@@ -1,0 +1,41 @@
+{
+  "name": "@eileen/bmi-mcp-server",
+  "version": "1.0.0",
+  "description": "A custom MCP server for BMI calculation - built with TypeScript",
+  "main": "dist/server.js",
+  "types": "dist/server.d.ts",
+  "mcpName": "io.github.eileen/bmi-mcp-server",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eileen/bmi-mcp-server"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "ts-node src/server.ts",
+    "watch": "tsc --watch",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "bmi",
+    "calculator",
+    "model-context-protocol"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
