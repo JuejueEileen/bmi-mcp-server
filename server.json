@@ -1,5 +1,5 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.JuejueEileen/bmi-mcp-server",
   "description": "BMI MCP Server - calculate BMI, convert weight, get health recommendations.",
   "version": "1.0.0",
@@ -13,7 +13,10 @@
     {
       "registryType": "npm",
       "identifier": "@juejueeileen/bmi-mcp-server",
-      "version": "1.0.0"
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      }
     }
   ]
 }
